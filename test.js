@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const toReadable = require('./src');
+const toReadable = require('./src/readable-number.js');
 
 
 it('Should return \'zero\' when 0 given', () => {
